@@ -12,7 +12,7 @@ This tool disables matchmaking in Destiny 2, allowing the player to play Strikes
 # How does this work?
 It adds and removes custom inbound and outbound rules to the Windows Firewall to block [ISteamNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets).
 
-[FirewallCommands.cs](https://github.com/zalonic/Destiny2-LoneWolf/blob/master/Destiny2-LoneWolf/Models/FirewallCommands.cs)
+[FirewallCommands.cs](https://github.com/zalonic/Destiny2-LoneWolf/blob/main/Source/Destiny2-LoneWolf/Models/FirewallCommands.cs)
 credit goes to
 [Matthew Lee (fmmmlee/D2Solo)](https://github.com/fmmmlee/D2Solo)
 , I just wanted a smaller design and wrote a new frontend using
