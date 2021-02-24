@@ -1,5 +1,17 @@
 # Destiny 2 - Lone Wolf (for Windows PC)
 
+# Download
+Downloads can be found in under [Releases](https://github.com/zalonic/Destiny2-LoneWolf/releases/)
+
+|   Downloads  |   Downloads  |
+| ------------ | ------------ |
+|Destiny2-LoneWolf_CompiledBinaries.zip| Just unzip and run |
+|Destiny2-LoneWolf_Installer.msi|Installer, installs to Program Files and creates Start Menu icon|
+|Source code (zip)|
+|Source code (tar.gz)|
+
+Consider Watching or Staring the Repo if you find this useful and to easily come back for updates or changes.
+
 # What does this do?
 This tool disables matchmaking in Destiny 2, allowing the player to play Strikes by themselves as if you are like me you sometimes don't want to speed through the stike and getting matched with speedrunners is a pain.
 
