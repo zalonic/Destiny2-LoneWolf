@@ -36,9 +36,6 @@ Right clicking the icon will show the below contect menu.
 ## Closed the app but forgot to turn off Lone Wolf mode first?
 No problem, the app will automatically remove the blocked firewall ports when it closed.
 
-## Had to kill the app via Task Manager?
-This means Lone Wolf mode is still activate, just open the app again and it is designed to check and remove the firewall rules when it first opens, if they are found. The application can then be closed again.
-
 ## Want to delete the ports manually? What they are called in the Firewall:
 ```
 Destiny 2 - Lone Wolf (UDP-Out)

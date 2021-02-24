@@ -11,15 +11,6 @@ namespace Destiny2LoneWolf.ViewModels
     {
         public MainWindowViewModel()
         {
-            try
-            {
-                FirewallCommands.OpenMatchmakingPorts(); //Incase it was forced closed and ExecuteClosingCommand was not run
-            }
-            catch (Exception)
-            {
-                // ignored
-            }
-
             ExecuteToggleCommand();
         }
 
@@ -58,7 +49,7 @@ namespace Destiny2LoneWolf.ViewModels
         private DelegateCommand _closingCommand;
         public DelegateCommand ClosingCommand =>
             _closingCommand ?? (_closingCommand = new DelegateCommand(ExecuteClosingCommand));
-        private void ExecuteClosingCommand() { if (_soloMode) FirewallCommands.OpenMatchmakingPorts(); }
+        private void ExecuteClosingCommand() { FirewallCommands.OpenMatchmakingPorts(); }
 
         #region ContextMenu
         private DelegateCommand _openGitHubUrl;
@@ -70,7 +61,6 @@ namespace Destiny2LoneWolf.ViewModels
         public DelegateCommand CloseButtonCommand =>
             _closeButtonCommand ?? (_closeButtonCommand = new DelegateCommand(ExecuteCloseCommand));
         private static void ExecuteCloseCommand() => Application.Current.Shutdown();
-
         #endregion
     }
 }
